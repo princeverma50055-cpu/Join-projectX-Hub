@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProjectX Hub — Build. Automate. Scale. Dominate.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-x">X</span>
+        <span class="logo-text">ProjectX Hub</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#apply">Apply</a></li>
+        <li><a href="#admin" class="nav-admin">Admin</a></li>
+      </ul>
+      <a href="#apply" class="btn btn-nav">Apply Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#apply">Apply</a>
+      <a href="#admin">Admin</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="grid-lines"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Now Onboarding Talent
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">Build.</span>
+        <span class="title-line accent-violet">Automate.</span>
+        <span class="title-line">Scale.</span>
+        <span class="title-line accent-cyan">Dominate.</span>
+      </h1>
+      <p class="hero-sub">ProjectX Hub is the digital growth ecosystem where AI, automation, analytics, and strategy converge to help individuals and businesses reach their highest potential.</p>
+      <div class="hero-cta">
+        <a href="#apply" class="btn btn-primary">Apply Now <span class="btn-arrow">→</span></a>
+        <a href="#services" class="btn btn-ghost">Explore Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Service Domains</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Skills Offered</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Remote First</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="x-mark">
+        <svg viewBox="0 0 200 200" fill="none">
+          <path d="M40 40 L160 160M160 40 L40 160" stroke="url(#grad1)" stroke-width="18" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="grad1" x1="40" y1="40" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#7C3AED"/>
+              <stop offset="100%" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="x-ring x-ring1"></div>
+        <div class="x-ring x-ring2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about reveal" id="about">
+    <div class="container">
+      <div class="section-label">About Us</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">The Ecosystem Behind <span class="accent-violet">Digital Growth</span></h2>
+          <p>ProjectX Hub is a digital growth, AI, automation, analytics, and marketing ecosystem — purpose-built to help individuals and businesses scale using modern technology and strategic systems.</p>
+          <p>We're not an agency. We're a collective of operators, builders, and strategists who use data, automation, and AI to turn visions into systems that compound over time.</p>
+          <div class="about-pillars">
+            <div class="pillar"><span class="pillar-icon">🧠</span> AI-First Thinking</div>
+            <div class="pillar"><span class="pillar-icon">⚙️</span> Systems Design</div>
+            <div class="pillar"><span class="pillar-icon">📈</span> Growth Ops</div>
+            <div class="pillar"><span class="pillar-icon">🌐</span> Global Remote</div>
+          </div>
+        </div>
+        <div class="about-card-group">
+          <div class="about-card">
+            <div class="about-card-num">01</div>
+            <div class="about-card-body">
+              <h3>Apply Your Skills</h3>
+              <p>Join a project that actually values deep expertise over generic outputs.</p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-num">02</div>
+            <div class="about-card-body">
+              <h3>Work on Real Systems</h3>
+              <p>Engage with live projects in AI, analytics, marketing, and automation.</p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-num">03</div>
+            <div class="about-card-body">
+              <h3>Grow & Compound</h3>
+              <p>Your skills compound. Our systems are built for exponential output.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services reveal" id="services">
+    <div class="container">
+      <div class="section-label">What We Do</div>
+      <h2 class="section-title">Our <span class="accent-cyan">Service Domains</span></h2>
+      <p class="section-sub">Eight specialized domains. One unified growth system.</p>
+
+      <div class="services-grid">
+
+        <div class="service-card" data-color="violet" tabindex="0">
+          <div class="service-icon">🧠</div>
+          <h3>AI & Data Intelligence</h3>
+          <ul>
+            <li>AI Analytics & Insights</li>
+            <li>Predictive Analytics</li>
+            <li>Data Interpretation & Reporting</li>
+            <li>EDA (Exploratory Data Analysis)</li>
+            <li>Model Selection & Validation</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-color="cyan" tabindex="0">
+          <div class="service-icon">📊</div>
+          <h3>Analytics & Tracking</h3>
+          <ul>
+            <li>Google Analytics (GA4)</li>
+            <li>Conversion Tracking</li>
+            <li>Tag Manager Basics</li>
+            <li>Web Performance Analytics</li>
+            <li>Data-driven Insights</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-color="pink" tabindex="0">
+          <div class="service-icon">📢</div>
+          <h3>Digital Marketing</h3>
+          <ul>
+            <li>SEO Optimization</li>
+            <li>Google Ads / SEM</li>
+            <li>Social Media Marketing</li>
+            <li>Email Marketing</li>
+            <li>Content Strategy</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-color="orange" tabindex="0">
+          <div class="service-icon">🚀</div>
+          <h3>Performance Marketing</h3>
+          <ul>
+            <li>Ad Optimization</li>
+            <li>A/B Testing</li>
+            <li>Funnel Optimization</li>
+            <li>ROAS Optimization</li>
+            <li>Retargeting & Campaign Strategy</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-color="green" tabindex="0">
+          <div class="service-icon">🎬</div>
+          <h3>Content & Creative</h3>
+          <ul>
+            <li>Video Editing</li>
+            <li>Graphic Design</li>
+            <li>Logo Design</li>
+            <li>Content Writing</li>
+            <li>Branding Strategy</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-color="violet" tabindex="0">
+          <div class="service-icon">⚙️</div>
+          <h3>Automation & Systems</h3>
+          <ul>
+            <li>Workflow Automation</li>
+            <li>Business Process Optimization</li>
+            <li>AI-powered Automation</li>
+            <li>Productivity Systems</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-color="cyan" tabindex="0">
+          <div class="service-icon">💼</div>
+          <h3>Business & Strategy</h3>
+          <ul>
+            <li>Strategic Planning</li>
+            <li>Business Communication</li>
+            <li>Decision Making</li>
+            <li>Project Planning</li>
+            <li>Growth Strategy</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-color="pink" tabindex="0">
+          <div class="service-icon">🛡️</div>
+          <h3>Rights & Digital Mgmt</h3>
+          <ul>
+            <li>Copyright Management</li>
+            <li>Content ID Systems</li>
+            <li>Music Rights Management</li>
+            <li>Digital Asset Management</li>
+            <li>Policy Compliance</li>
+          </ul>
+        </div>
+
+        <div class="service-card service-card--wide" data-color="orange" tabindex="0">
+          <div class="service-icon">🌐</div>
+          <h3>Client Management</h3>
+          <ul class="ul-row">
+            <li>Client Communication</li>
+            <li>Requirement Analysis</li>
+            <li>Project Handling</li>
+            <li>Consultation Services</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLICATION FORM -->
+  <section class="apply-section reveal" id="apply">
+    <div class="container container--narrow">
+      <div class="section-label">Join Us</div>
+      <h2 class="section-title">Apply to <span class="accent-violet">ProjectX Hub</span></h2>
+      <p class="section-sub">Tell us who you are. We'll tell you where you fit.</p>
+
+      <form class="apply-form" id="applyForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fullName">Full Name <span class="req">*</span></label>
+            <input type="text" id="fullName" name="fullName" placeholder="Your full name" autocomplete="name"/>
+            <span class="form-error" id="err-fullName"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email"/>
+            <span class="form-error" id="err-email"></span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone Number <span class="req">*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" autocomplete="tel"/>
+            <span class="form-error" id="err-phone"></span>
+          </div>
+          <div class="form-group">
+            <label for="experience">Experience Level <span class="req">*</span></label>
+            <select id="experience" name="experience">
+              <option value="">Select level...</option>
+              <option value="Beginner (0–1 years)">Beginner (0–1 years)</option>
+              <option value="Intermediate (2–3 years)">Intermediate (2–3 years)</option>
+              <option value="Advanced (4–6 years)">Advanced (4–6 years)</option>
+              <option value="Expert (7+ years)">Expert (7+ years)</option>
+            </select>
+            <span class="form-error" id="err-experience"></span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="skills">Skills <span class="req">*</span></label>
+          <input type="text" id="skills" name="skills" placeholder="e.g. AI Analytics, SEO, Video Editing, Python..."/>
+          <span class="form-error" id="err-skills"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="whyJoin">Why do you want to join ProjectX Hub? <span class="req">*</span></label>
+          <textarea id="whyJoin" name="whyJoin" rows="4" placeholder="Tell us your motivation, goals, and what you bring to the table..."></textarea>
+          <span class="form-error" id="err-whyJoin"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="portfolio">Portfolio / LinkedIn / GitHub <span class="optional">(optional)</span></label>
+          <input type="url" id="portfolio" name="portfolio" placeholder="https://yourportfolio.com"/>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+          <span class="btn-text">Submit Application</span>
+          <span class="btn-loader" id="btnLoader" aria-hidden="true"></span>
+        </button>
+      </form>
+
+      <!-- SUCCESS POPUP -->
+      <div class="success-overlay" id="successOverlay" aria-live="polite" hidden>
+        <div class="success-card">
+          <div class="success-icon">✓</div>
+          <h3>Application Received!</h3>
+          <p>Thanks for applying to ProjectX Hub. We'll review your submission and reach out within 3–5 business days.</p>
+          <button class="btn btn-ghost" onclick="document.getElementById('successOverlay').hidden=true">Close</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADMIN DASHBOARD -->
+  <section class="admin-section reveal" id="admin">
+    <div class="container">
+      <div class="section-label">Internal</div>
+      <h2 class="section-title">Admin <span class="accent-cyan">Dashboard</span></h2>
+      <p class="section-sub">View and search all submitted applications.</p>
+
+      <div class="admin-controls">
+        <input type="text" id="adminSearch" placeholder="Search by name, email, or skills..." class="admin-search" oninput="filterApplications()"/>
+        <button class="btn btn-ghost btn-sm" onclick="loadApplications()">↻ Refresh</button>
+        <span class="admin-count" id="adminCount"></span>
+      </div>
+
+      <div class="admin-table-wrap" id="adminTableWrap">
+        <div class="admin-empty" id="adminEmpty">
+          <p>Configure your Google Sheets URL in <code>script.js</code> to load applications here.</p>
+          <button class="btn btn-primary btn-sm" onclick="loadApplications()">Load Data</button>
+        </div>
+        <table class="admin-table" id="adminTable" hidden>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Timestamp</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Skills</th>
+              <th>Experience</th>
+              <th>Why Join</th>
+              <th>Portfolio</th>
+            </tr>
+          </thead>
+          <tbody id="adminTbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-x">X</span>
+          <span class="logo-text">ProjectX Hub</span>
+        </a>
+        <p>Build. Automate. Scale. Dominate.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#apply">Apply</a>
+        <a href="#admin">Admin</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2025 ProjectX Hub. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
